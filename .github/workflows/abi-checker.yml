@@ -6,7 +6,7 @@ on:
       API_BASE_REF:
         description: 'Base revision for ABI compatibility check'
         required: true
-        default: '3.0.0'
+        default: '3.0.2'
   pull_request_target:
     branches: [ master, stable* ]
   schedule:
